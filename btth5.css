@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: "poppins"sans-serif;
+}
+.top{
+    display: flex;
+    max-width: 1711px;
+    justify-content: space-between;
+    align-items: center;
+}
+.top h2{
+font-weight: 500;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 2%;
+color: rgba(0, 0, 0, 1);
+}
+.top p{
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+color: rgba(73, 187, 189, 1);
+}
+.box{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box .card{
+width: 374;
+height: 617;
+opacity: 1;
+border: 1px solid rgba(217, 217, 217, 1);
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+padding: 20px;
+}
+.card img{
+width: 335;
+height: 239;
+opacity: 1;
+border-radius: 20px;
+object-fit: cover;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    gap:139px;
+    align-items: center;
+}
+.time div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: space-between;
+}
+.time p{
+font-weight: 500;
+font-size: 14px;
+line-height: 180%;
+letter-spacing: 2%;
+color: rgba(105, 105, 132, 1);
+}
+.h2{
+
+font-weight: 500;
+font-size: 24px;
+line-height: 50px;
+color: rgba(37, 38, 65, 1);
+}
+.p{
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+letter-spacing: 2%;
+color: rgba(105, 105, 132, 1);
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    gap: 108px;
+}
+.bottom div{
+    display: flex;
+    gap: 10px;
+}
+.p1{
+
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 2%;
+color: rgba(0, 0, 0, 1);
+}
+.p2{
+        font-family: Poppins;
+font-weight: 300;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 2%;
+vertical-align: middle;
+text-decoration: line-through;
+color: rgba(0, 0, 0, 0.5);
+}
+.p3{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 2%;
+vertical-align: middle;
+color: rgba(73, 187, 189, 1);
+}
